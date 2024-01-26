@@ -1,4 +1,4 @@
-module libraries
+module Go-API
 
 go 1.21.6
 
