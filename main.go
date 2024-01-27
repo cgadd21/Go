@@ -5,12 +5,15 @@ import (
 	"os"
 	"Go-API/db"
 	"Go-API/routes"
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
 	db.InitDB()
 
-	router := routes.SkillRoutes()
+	router := gin.Default()
+
+	routes.SkillRoutes(router);
 
 	port := os.Getenv("PORT")
 	if port == "" {
