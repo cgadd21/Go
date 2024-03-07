@@ -1,0 +1,1 @@
+Developed a Go API for CRUD operations, interfaced with a MySQL database, offering RESTful endpoints for creating, reading, updating, and deleting records while ensuring data integrity through validation and secure coding practices.
